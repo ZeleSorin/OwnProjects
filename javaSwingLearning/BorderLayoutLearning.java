@@ -1,10 +1,9 @@
 package javaSwingLearning;
 
 import javax.swing.*;
-import javax.swing.border.Border;
 import java.awt.*;
 
-public class BorderLayout {
+public class BorderLayoutLearning {
 
     public static void main(String[] args) {
         // Layout Manager = Defines the natural layout for components within a container
@@ -59,19 +58,19 @@ public class BorderLayout {
         panel10.setPreferredSize(new Dimension(100,100));
         panel5.setLayout(new java.awt.BorderLayout(10,10));
 
-        panel5.add(panel6, java.awt.BorderLayout.NORTH);
-        panel5.add(panel7, java.awt.BorderLayout.WEST);
-        panel5.add(panel8, java.awt.BorderLayout.EAST);
-        panel5.add(panel9, java.awt.BorderLayout.SOUTH);
-        panel5.add(panel10, java.awt.BorderLayout.CENTER);
+        panel5.add(panel6, BorderLayout.NORTH);
+        panel5.add(panel7, BorderLayout.WEST);
+        panel5.add(panel8, BorderLayout.EAST);
+        panel5.add(panel9, BorderLayout.SOUTH);
+        panel5.add(panel10,BorderLayout.CENTER);
 
         //------Sub panels ----------------------------
 
-        frame.add(panel1, java.awt.BorderLayout.NORTH);
-        frame.add(panel2, java.awt.BorderLayout.WEST);
-        frame.add(panel3, java.awt.BorderLayout.EAST);
-        frame.add(panel4,java.awt.BorderLayout.SOUTH);
-        frame.add(panel5, java.awt.BorderLayout.CENTER);
+        frame.add(panel1, BorderLayout.NORTH);
+        frame.add(panel2, BorderLayout.WEST);
+        frame.add(panel3, BorderLayout.EAST);
+        frame.add(panel4,BorderLayout.SOUTH);
+        frame.add(panel5, BorderLayout.CENTER);
 
 
 

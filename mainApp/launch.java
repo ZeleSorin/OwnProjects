@@ -9,7 +9,7 @@ public class launch {
     private static JFrame frame ;
     public static void main(String[] args) {
         try {
-            frame = factory.factoryDo("launch");
+            frame = factory.factoryDo("menupage");
         } catch (Exception e) {
             e.printStackTrace();
         }

@@ -1,10 +1,9 @@
 package viewsFactory;
 
 import Views.mainPanel;
-import Views.menuPage;
-import Views.ticTacToePanel;
+import StartApp.menuPage;
+import TicTacToe.ticTacToePanel;
 
-import javax.swing.*;
 import java.util.Locale;
 
 /**

@@ -1,5 +1,7 @@
 package passGen;
 
+import StartApp.menuPage;
+import Views.mainPanel;
 import javaSwingLearning.MyFrame;
 import viewsFactory.mainFactory;
 
@@ -12,8 +14,9 @@ import java.awt.event.ActionListener;
  * GUI class manages the GUI of the password generator
  */
 public class GUI  {
-    mainFactory factory = new mainFactory();
-    public static void main(String[] args) {
+   public static mainFactory factory = new mainFactory();
+    public static void main(String[] args) throws Exception {
+      mainPanel mains = factory.factoryDo("menupage");
 
     }
 
@@ -25,7 +28,7 @@ public class GUI  {
 //
 //    GUI() {
 //        createMainFrame();
-//
+//z
 //        contentPanel = new JPanel();
 //        contentPanel.setBackground(Color.BLACK);
 //        contentPanel.setPreferredSize(new Dimension(600, 200));

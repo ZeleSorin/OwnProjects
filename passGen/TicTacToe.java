@@ -35,7 +35,7 @@ public class TicTacToe implements ActionListener {
     private final JLabel icon = new JLabel();
 
 
-    TicTacToe() {
+    public TicTacToe() {
         ticTacFrame.setDefaultCloseOperation(Integer.valueOf(3));
         ticTacFrame.setSize(900, 600);
         ticTacFrame.setLayout(null);
